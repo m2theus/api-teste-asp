@@ -19,3 +19,15 @@ C:\Users\mathe\Downloads\ArquiteturaDoProjeto_API\src\Api.Domain\bin\Debug\netco
 C:\Users\mathe\Downloads\ArquiteturaDoProjeto_API\src\Api.Domain\bin\Debug\netcoreapp3.1\Domain.runtimeconfig.dev.json
 C:\Users\mathe\Downloads\ArquiteturaDoProjeto_API\src\Api.Domain\obj\Debug\netcoreapp3.1\Domain.genruntimeconfig.cache
 C:\Users\mathe\Downloads\ArquiteturaDoProjeto_API\src\Api.Domain\obj\Debug\netcoreapp3.1\Domain.csproj.CoreCompileInputs.cache
+C:\projetos\testevisual\Api.Domain\bin\Debug\netcoreapp3.1\Domain.deps.json
+C:\projetos\testevisual\Api.Domain\bin\Debug\netcoreapp3.1\Domain.runtimeconfig.json
+C:\projetos\testevisual\Api.Domain\bin\Debug\netcoreapp3.1\Domain.runtimeconfig.dev.json
+C:\projetos\testevisual\Api.Domain\bin\Debug\netcoreapp3.1\Domain.dll
+C:\projetos\testevisual\Api.Domain\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\projetos\testevisual\Api.Domain\obj\Debug\netcoreapp3.1\Domain.csprojAssemblyReference.cache
+C:\projetos\testevisual\Api.Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfoInputs.cache
+C:\projetos\testevisual\Api.Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfo.cs
+C:\projetos\testevisual\Api.Domain\obj\Debug\netcoreapp3.1\Domain.csproj.CoreCompileInputs.cache
+C:\projetos\testevisual\Api.Domain\obj\Debug\netcoreapp3.1\Domain.dll
+C:\projetos\testevisual\Api.Domain\obj\Debug\netcoreapp3.1\Domain.pdb
+C:\projetos\testevisual\Api.Domain\obj\Debug\netcoreapp3.1\Domain.genruntimeconfig.cache

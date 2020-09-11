@@ -11,7 +11,7 @@ namespace Api.Data.Mapping
 
         public void Configure(EntityTypeBuilder<PessoaEntity> builder)
         {
-            builder.ToTable("Cliente");
+            builder.ToTable("Pessoa");
 
             builder.HasKey(c => c.Id);
 

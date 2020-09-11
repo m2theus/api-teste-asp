@@ -23,11 +23,6 @@ namespace Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("char(36)");
 
-                    b.Property<string>("Profissao")
-                       .IsRequired()
-                       .HasColumnType("varchar(100) CHARACTER SET utf8mb4")
-                       .HasMaxLength(100);
-
                     b.Property<string>("Documento")
                         .IsRequired()
                         .HasColumnType("varchar(100) CHARACTER SET utf8mb4")
@@ -43,15 +38,20 @@ namespace Data.Migrations
 
                     b.Property<string>("Nome")
                         .IsRequired()
-                        .HasColumnType("varchar(60) CHARACTER SET utf8mb4")
-                        .HasMaxLength(60);
+                        .HasColumnType("varchar(100) CHARACTER SET utf8mb4")
+                        .HasMaxLength(100);
+
+                    b.Property<string>("Profissao")
+                        .IsRequired()
+                        .HasColumnType("varchar(100) CHARACTER SET utf8mb4")
+                        .HasMaxLength(100);
 
                     b.HasKey("Id");
 
                     b.HasIndex("Documento")
                         .IsUnique();
 
-                    b.ToTable("Cliente");
+                    b.ToTable("Pessoa");
                 });
 #pragma warning restore 612, 618
         }

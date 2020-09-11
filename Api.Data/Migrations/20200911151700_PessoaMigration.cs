@@ -1,18 +1,18 @@
-﻿using Microsoft.EntityFrameworkCore.Migrations;
-using System;
+﻿using System;
+using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Data.Migrations
 {
-    public partial class ClienteMigration : Migration
+    public partial class PessoaMigration : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "Cliente",
+                name: "Pessoa",
                 columns: table => new
                 {
                     Id = table.Column<Guid>(nullable: false),
-                    Nome = table.Column<string>(maxLength: 60, nullable: false),
+                    Nome = table.Column<string>(maxLength: 100, nullable: false),
                     Email = table.Column<string>(maxLength: 100, nullable: false),
                     Documento = table.Column<string>(maxLength: 100, nullable: false),
                     Idade = table.Column<int>(nullable: false),
@@ -20,12 +20,12 @@ namespace Data.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Cliente", x => x.Id);
+                    table.PrimaryKey("PK_Pessoa", x => x.Id);
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_Cliente_Documento",
-                table: "Cliente",
+                name: "IX_Pessoa_Documento",
+                table: "Pessoa",
                 column: "Documento",
                 unique: true);
         }
@@ -33,7 +33,7 @@ namespace Data.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Cliente");
+                name: "Pessoa");
         }
     }
 }
