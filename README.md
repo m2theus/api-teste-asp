@@ -10,3 +10,9 @@
 create database dbtestebackend
 configurar usuário e senha de acesso do mysql para root
 ```
+
+**3. Executar migartions**
+```bash
+Para executar o migration do projeto e criar a tabela de pessoas deve-se acessar a pasta Api.Data e executar o comando:
+ dotnet ef database update 
+```
